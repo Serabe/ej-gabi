@@ -1,0 +1,12 @@
+Install Mocha and Chai:
+
+ * npm install -g mocha
+ * npm install -g chai
+
+Test it!
+ * mocha --compilers coffee:coffee-script
+
+Implement it!
+
+Write code in src/MyNumber.coffee and make all your tests pass! Each
+time a new test passes, commit it so I can take a look at it.
