@@ -47,3 +47,9 @@ describe 'MyNumber instance', ->
     it 'returns false otherwise', ->
       num(5).isPerfect().should.equal false
       num(8).isPerfect().should.equal false
+
+  describe 'divisors', ->
+    it 'returns ordered list with divisors', ->
+      num(1).divisors().should.eql([1])
+      num(7).divisors().should.eql [1,7]
+      num(12).divisors().should.eql [1,2,3,4,6,12]
