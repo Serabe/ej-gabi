@@ -1,8 +1,9 @@
-==Install dependencies:
-
+Install dependencies:
+--------------------
     npm install
 
-==Test it!
+Test it!
+--------
 
 You can run mocha directly
 
@@ -13,6 +14,7 @@ or use npm instead:
     npm test
 
 Implement it!
+-------------
 
-Write code in src/MyNumber.coffee and make all your tests pass! Each
-time a new test passes, commit it so I can take a look at it.
+Test the code and start solving the failing tests. Each time
+you get one passing, commit it so I can review it.
