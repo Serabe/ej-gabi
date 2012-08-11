@@ -1,0 +1,17 @@
+{
+  "name": "ej-gabi",
+  "version": "0.0.1",
+  "author": "Sergio Arbeo <serabe@gmail.com>",
+  "description": "A set of exercises for a friend.",
+  "scripts": {
+    "test": "cake test"
+  },
+  "devDependencies": {
+    "mocha": "1.3.2",
+    "chai": "1.2.0"
+  },
+  "license": "MIT",
+  "engine": {
+    "node": ">=0.8"
+  }
+}

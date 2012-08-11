@@ -1,10 +1,16 @@
-Install Mocha and Chai:
+==Install dependencies:
 
- * npm install -g mocha
- * npm install -g chai
+    npm install
 
-Test it!
- * mocha --compilers coffee:coffee-script
+==Test it!
+
+You can run mocha directly
+
+    mocha --compilers coffee:coffee-script
+
+or use npm instead:
+
+    npm test
 
 Implement it!
 
