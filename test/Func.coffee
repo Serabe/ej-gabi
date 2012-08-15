@@ -29,7 +29,7 @@ describe 'Func instance', ->
       Func.reduce(((memo, x) -> memo.unshift(x)), [1..10], []).should.eql [10..1]
 
     it 'uses the first element of the array if no base is found', ->
-      Func.reduce(((memo, x) -> memo / x)), [2,3,4]).should.closeTo 1/6, 0.001
+      Func.reduce(((memo, x) -> memo / x), [2,3,4]).should.closeTo 1/6, 0.001
 
   describe 'partial', ->
     it 'works when not all arguments are given', ->
